@@ -1,0 +1,70 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+@import url('./header.css');
+@import url('./back-link.css');
+@import url('./footer.css');
+
+.timer {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.form fieldset {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.form input[type='number'] {
+  padding: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
